@@ -18,16 +18,17 @@ Model mašinskog učenja koji je korišten za predvidjanje kreditne ocene:
 
 Tačnost algoritma(accuracy) je 98.11%
 
-precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
-           A       0.99      0.99      0.99      
-           B       0.98      0.99      0.99     
-           C       0.98      0.98      0.98      
-           D       0.97      0.95      0.96      
-           E       0.92      0.88      0.90      
-           F       0.88      0.67      0.76       
-           G       0.67      1.00      0.80         
+           A       0.99      0.99      0.99      1541
+           B       0.98      0.99      0.99      1439
+           C       0.98      0.98      0.98       974
+           D       0.97      0.95      0.96       514
+           E       0.92      0.88      0.90       126
+           F       0.88      0.67      0.76        21
+           G       0.67      1.00      0.80         2
 
-    accuracy                           0.98     
-   macro avg       0.91      0.92      0.91     
-weighted avg       0.98      0.98      0.98      
+    accuracy                           0.98      4617
+   macro avg       0.91      0.92      0.91      4617
+weighted avg       0.98      0.98      0.98      4617
+
