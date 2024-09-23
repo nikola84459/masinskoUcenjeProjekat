@@ -31,6 +31,6 @@ Tačnost algoritma(accuracy) je 98.11%
            G       0.67      1.00      0.80         2
 
     accuracy                           0.98      4617
-   macro avg       0.91      0.92      0.91      4617
-weighted avg       0.98      0.98      0.98      4617
+   macro avg:       0.91      0.92      0.91      4617
+weighted avg:       0.98      0.98      0.98      4617
 
