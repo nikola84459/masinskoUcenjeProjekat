@@ -1,7 +1,9 @@
 Ovaj projekat ima za cilj da predvidi kreditnu ocenu korisnika kaorisnika, koja predstavlja kreditnu spospobnost korisnika. Ocene kredita su označene slovima od A do G i primenom tehnika klasifikacije se predviđa kreditna ocena korisnika.
 
 Dataset sadrži određene podatke o korisnicima, odnosno njihovim ličnim i finansiskim podacima:
+
   Ulazni podaci koji se koriste za obučavanje modela su:
+  
     person_age - godine korisnika
     person_income - primanja korisnika na godišnjem nivou
     person_home_ownership - vlasništvo nad stambenim objektom
