@@ -18,7 +18,7 @@ Dataset sadrži određene podatke o korisnicima, odnosno njihovim ličnim i fina
 Model mašinskog učenja koji je korišten za predvidjanje kreditne ocene:
   Gradient Boosting Classifier
 
-Tačnost algoritma(accuracy) je 98.11%
+Tačnost algoritma(accuracy) na validacionom skupu podataka je 98.11%
 
                 precision    recall  f1-score   support
 
