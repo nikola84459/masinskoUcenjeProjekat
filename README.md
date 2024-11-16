@@ -1,24 +1,24 @@
-Ovaj projekat ima za cilj da predvidi kreditnu ocenu korisnika kaorisnika, koja predstavlja kreditnu spospobnost korisnika. Ocene kredita su označene slovima od A do G i primenom tehnika klasifikacije se predviđa kreditna ocena korisnika.
+Description:
 
-Dataset sadrži određene podatke o korisnicima, odnosno njihovim ličnim i finansiskim podacima:
+The goal of this project is to predict the credit score of a user, which represents the user's creditworthiness. The credit scores are labeled with letters from A to G, and classification techniques are used to predict the user's credit score.
 
-  Ulazni podaci koji se koriste za obučavanje modela su:
-  
-    person_age - godine korisnika
-    person_income - primanja korisnika na godišnjem nivou
-    person_home_ownership - vlasništvo nad stambenim objektom
-    person_emp_length - dužina zaposlenja korisnika
-    loan_amnt - iznos kredita
-    loan_int_rate - kamatna stopa
-    loan_status - da li je korisnik imao nekih kašnjenja o otplati kredita
-    loan_percent_income - procenat prihoda korisnika koji je potreban za otplatu kredita
-    cb_person_default_on_file - da li je korisnik imao kašnjenja u otplati prethodnih kredita
-    cb_person_cred_hist_length - dužina kreditne istorije korisnika
+The dataset contains various data about users, including their personal and financial information:
 
-Model mašinskog učenja koji je korišten za predvidjanje kreditne ocene:
-  Gradient Boosting Classifier
+The input data used for training the model includes:
 
-Tačnost algoritma(accuracy) na test skupu podataka je 98.11%
+person_age - the age of the user
+person_income - the user's annual income
+person_home_ownership - homeownership status
+person_emp_length - length of the user's employment
+loan_amnt - loan amount
+loan_int_rate - interest rate on the loan
+loan_status - whether the user has had any delays in repaying previous loans
+loan_percent_income - the percentage of the user's income required for loan repayment
+cb_person_default_on_file - whether the user has had delays in repaying previous loans
+cb_person_cred_hist_length - the length of the user's credit history
+The machine learning model used for predicting the credit score: Gradient Boosting Classifier
+
+The accuracy of the algorithm on the test dataset is 98.11%.
 
                 precision    recall  f1-score   support
 
