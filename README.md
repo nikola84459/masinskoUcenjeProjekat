@@ -7,15 +7,25 @@ The dataset contains various data about users, including their personal and fina
 The input data used for training the model includes:
 
 person_age - the age of the user
+
 person_income - the user's annual income
+
 person_home_ownership - homeownership status
+
 person_emp_length - length of the user's employment
-loan_amnt - loan amount
+
+loan_amnt -  loan amount
+
 loan_int_rate - interest rate on the loan
+
 loan_status - whether the user has had any delays in repaying previous loans
+
 loan_percent_income - the percentage of the user's income required for loan repayment
+
 cb_person_default_on_file - whether the user has had delays in repaying previous loans
+
 cb_person_cred_hist_length - the length of the user's credit history
+
 The machine learning model used for predicting the credit score: Gradient Boosting Classifier
 
 The accuracy of the algorithm on the test dataset is 98.11%.
